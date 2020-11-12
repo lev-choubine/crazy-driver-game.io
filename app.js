@@ -16,9 +16,12 @@ document.addEventListener('DOMContentLoaded',  function(){
 
     document.addEventListener('keydown', function(e){
         if(e.key==='r'){
-            paused=false;
-            gameStatus="running";
-            e.preventDefault();
+            if (paused === true ){
+                paused=false;
+                gameStatus="running";
+                e.preventDefault();
+            }
+         
         }  
     })
     

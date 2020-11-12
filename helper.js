@@ -63,6 +63,36 @@ function dancing(){
     
 }
 
+function winnerAnime(){
+    document.getElementById('letsdance').style.visibility="visible";
+
+    playYtta.play();
+    const  interval = 160;
+    function hideGirl(){
+        document.getElementById('letsdance').style.visibility="hidden";   
+    }
+    function bakaaaa(){ dance.style.backgroundPosition=`-${dancePosition}px 0px`
+       
+    if(dancePosition < 2272){
+        
+        dancePosition = dancePosition + 568;
+    }else{
+        dancePosition = 568;
+    }   
+
+    }
+    let speak = setInterval(bakaaaa, interval)
+    function stopSpeak() {
+
+        clearInterval(speak)
+        hideGirl()
+    } 
+    setTimeout(stopSpeak, 1300);
+   
+
+    
+}
+
 
 
 //////--------------------------PICKING CAR LANES-------------------/////////////

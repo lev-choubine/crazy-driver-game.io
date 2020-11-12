@@ -110,6 +110,7 @@ function sound(src, repeat) {
   pointSounds = new sound(pointSound,'no');
   playSugoii = new sound(sugoiii, 'no');
   playBaka = new sound(baka, 'no');
+  playYatta = new sound(yatta, 'no');
 
 const userCar = new Car(150,274, crazyStatus, userCarImage);
 

@@ -21,5 +21,6 @@ const gameMusic ='backgroundMusic.mp3';
 const pointSound ='pointsSound.mp3'
 const sugoiii = 'sugoii.wav'
 const baka = 'baka.wav'
+const yatta ="yatta.wav"
 const anime = document.getElementById('dancing')
 ;
