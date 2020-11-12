@@ -150,7 +150,7 @@ function carCrashPopUps() {
     racerQuote.innerText = driverQuoute;
     speil.innerText = "Click on the car to begin or hit 'S";
 }
-
+////////////////////////
 // ----SUGOII /-------
 function sugoii(){
    
