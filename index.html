@@ -3,55 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Assessment</title>
 </head>
-    <body>
-       <main>
-            <div class="slide" id="instructions">
-                <h3>Driving against traffic is not for the one who is week-hearted. Avoid collision with the oncoming cars. Every time you pass a grey car you will generate 150 points. Bump the grey car off the road to generate double points. You win when you accumulate 3000 points! 
-                 </h3>
-            </div>
-                <div id="terebi">
-                        <h1>Crazy Driver</h1>      
-                        <div class="container">
-                             <canvas id="game" height=300 width=300>Hello!</canvas>
-                             <div id="katakana">
-                                   <p class="blinking" id="blob"> ガンバレ</p>
-                             </div>
-                        </div>
-                 </div>
-                        <div  id="message">
-                              <h3 id='racequote'>
-                              'Speed has never killed anyone, suddenly becoming stationary… that’s what gets you.'
-                              </h3>
-                        </div>
-                 <div id = "points">
-                     <div id="pointowa">
-                         <h3>Points</h3>
-                        <h3 id="point-tracker">000</h3>
-                    </div>
-                </div>
-                <div id="cheers">
-                     <h3 id="speil">Click on the TV to begin or hit 'S'</h3>
-                </div>
-                <div class="slide" id="instructions2">
-                      <h3>
-                          Press 'A ' to move your card to the left <br />
-                          Press 'D' to move your card to the right <br />
-                          Press 'P ' to pause the game <br /> 
-                          Press 'R' to resume
-                      </h3>
-                </div>
-                <div id="dancing">
-                    <p id="letsdance" class="raost"></p>
-                </div>
-            </main>
-        <script src="data.js"></script> 
-        <script src="status.js"></script>
-        <script src="helper.js"></script>       
-        <script src="app.js"></script> 
-    </body>
+<body>
+    <div id="all">
+       <h1 id="display"></h1>
+   
+       <button id="plus">+</button>
+       <input type="text" value="1" id="feild" /> 
+       <button id="minus">-</button>
+    </div>
+<script src="js/main.js"></script>    
+</body>
 </html>

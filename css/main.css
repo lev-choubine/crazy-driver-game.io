@@ -1,0 +1,33 @@
+#all {
+    background-color: none;
+    height: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#feild{
+
+}
+
+button {
+ font-size: 20px;
+ width: 35px;
+ height:35px;
+ background-color: rgb(199, 199, 199);
+ border-radius: 25%;
+ border: none;
+}
+
+input {
+    border-radius: 10%;
+    font-size: 20px;
+    text-align: center;
+    width: 60px;
+ height:35px; 
+}
+
+h1 {
+    font-weight: 700;
+    margin-top: 40px;
+    color: black;
+  }
